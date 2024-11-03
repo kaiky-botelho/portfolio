@@ -530,3 +530,174 @@ h3.my-profession{
     text-align: justify;
     color: var(--text-back-700);
 }
+
+/* Service */
+.service .container{
+    padding: 40px;
+}
+
+.service .service-item{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.service .service-item .service-item-inner{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-500);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service .service-item .service-item-inner:hover{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.service .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service .service-item .service-item-inner .icon .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+    
+}
+
+.service .service-item .service-item-inner:hover .icon {
+    background-color: var(--skin-color);
+}
+
+.service .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: white;
+}
+
+.service .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-back-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.service .service-item .service-item-inner p{
+    font-size: 16;
+    color: var(--text-back-700);
+    line-height: 25px;
+}
+
+/*Portfólio*/
+
+
+.portfolio .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px; 
+}
+
+.portfolio .portfolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio .portfolio-heading h2 {
+    color: var(--text-back-900);
+    font-weight: 500;
+}
+
+.portfolio .portfolio-items {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.portfolio .portfolio-item {
+    flex: 0 0 30%;
+    max-width: 30%; 
+    margin: 15px; 
+}
+
+.portfolio .portfolio-item .portfolio-item-inner {
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+}
+
+.portfolio .portfolio-item .portfolio-item-inner img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-item-inner h3 {
+    margin: 15px 0 10px;
+    color: var(--text-back-900);
+}
+
+.portfolio-button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: var(--skin-color);
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+
+@media (max-width:1199px){
+    .aside{
+        left: -270px;
+    }
+
+    .main-content{
+        padding-left: 0;
+    }
+
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width:991px){
+    .portfolio .portfolio-item,
+    .service .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+    .home .home-img{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
