@@ -1,0 +1,27 @@
+.introducao{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.introducao-conteudo{
+    text-align: center;
+    color:#F8F7F5 ;
+}
+
+p{
+    font-size: 1.5625rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+h1{
+    font-size: 3.125rem;
+    margin: 0;
+}
+
+h1 span{
+    color:#E3AF64;
+}

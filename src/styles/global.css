@@ -1,12 +1,18 @@
-body{
-  background-color: #0F1A3A;
+:root {
+  --font-roboto: "Roboto", sans-serif;
 }
 
-.container{
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+body {
+  background-color: #213A79;
+  font-family: var(--font-roboto);
+
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
