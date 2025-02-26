@@ -25,3 +25,12 @@ h1{
 h1 span{
     color:#E3AF64;
 }
+
+.botao-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
