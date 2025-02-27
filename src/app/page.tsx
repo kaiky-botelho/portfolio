@@ -1,7 +1,11 @@
 import Introducao from "./introducao";
+import Sobre from "./sobre";
 
 export default function Home() {
   return (
-    <Introducao />
+    <main>
+      <Introducao />
+      <Sobre />
+    </main>
   );
 }

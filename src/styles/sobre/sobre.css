@@ -1,0 +1,54 @@
+.sobre{
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+h2{
+  color: #EAEAEA;
+  font-size: 3rem
+}
+
+h2 span{
+  color: #E3AF64;
+}
+
+.sobre-conteudo{
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sobre-card{
+  background-color: #516AC7;
+  padding: 20px;
+  border-radius: 20px;
+  color: #F8F7F5;
+}
+
+.sobre-card p{
+  font-size: 1.85rem;
+}
+
+@media (max-width: 800px){
+
+  .sobre {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  h2{
+    text-align: center;
+  }
+  .sobre-conteudo{
+    grid-template-columns: 1fr;
+
+  }
+  .sobre-conteudo img {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+  }
+}

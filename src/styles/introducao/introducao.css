@@ -1,32 +1,32 @@
-.introducao{
-    height: 100vh;
+.introducao {
+    height: 90dvh;
     display: grid;
     align-items: center;
     justify-content: center;
 }
 
-.introducao-conteudo{
+.introducao-conteudo {
     text-align: center;
-    color:#F8F7F5 ;
+    color: #F8F7F5;
 }
 
-p{
+.introducao-conteudo p {
     font-size: 1.5625rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
 
-h1{
+h1 {
     font-size: 3.125rem;
     margin: 0;
 }
 
-h1 span{
-    color:#E3AF64;
+h1 span {
+    color: #E3AF64;
 }
 
-.botao-container{
+.botao-container {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -34,3 +34,24 @@ h1 span{
     margin-top: 20px;
 }
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
