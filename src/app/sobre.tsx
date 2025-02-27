@@ -9,10 +9,10 @@ export default function Sobre() {
       <div className="sobre-conteudo">
         <img src="../assets/sobre-imagem.png" alt="" />
         <div className="sobre-card">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid nostrum animi at tenetur cum pariatur ex blanditiis, nam facilis aut suscipit odit veniam doloribus quidem reiciendis. Et officiis voluptate minus.</p>
+          <p>Sou Kaiky Botelho de Faria, desenvolvedor front-end e UI/UX designer. Tenho experiência em HTML, CSS, JavaScript, React e TypeScript. Concluí o curso Técnico em Desenvolvimento de Sistemas e trabalhei em projetos como 'Galactic Explore', 'Next Book' e 'Alimenta Mais', sempre focando em criar interfaces atraentes e funcionais.</p>
           <TextButton type="button">Baixe o CV</TextButton>
         </div>
-        </div>
+      </div>
     </main>
   );
 }

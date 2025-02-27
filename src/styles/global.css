@@ -17,3 +17,17 @@ body {
   margin-right: auto;
 }
 
+h2 {
+  color: #EAEAEA;
+  font-size: 3rem
+}
+
+h2 span {
+  color: #E3AF64;
+}
+
+@media (max-width: 800px) {
+  h2 {
+    text-align: center;
+  }
+}

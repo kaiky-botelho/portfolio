@@ -3,19 +3,11 @@
   padding-bottom: 120px;
 }
 
-h2{
-  color: #EAEAEA;
-  font-size: 3rem
-}
-
-h2 span{
-  color: #E3AF64;
-}
 
 .sobre-conteudo{
   display: grid;
   grid-template-columns: 4fr 6fr;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
@@ -29,7 +21,7 @@ h2 span{
 }
 
 .sobre-card p{
-  font-size: 1.85rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 800px){
@@ -50,5 +42,12 @@ h2 span{
     margin: 0 auto;
     display: block;
     width: 70%;
+  }
+
+  .sobre-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

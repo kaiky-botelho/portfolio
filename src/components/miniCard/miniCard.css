@@ -1,0 +1,17 @@
+.mini-card {
+    background-color: #516AC7;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.mini-card h3{
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}

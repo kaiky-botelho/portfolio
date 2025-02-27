@@ -1,0 +1,11 @@
+.conhecimento{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.conhecimento-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
