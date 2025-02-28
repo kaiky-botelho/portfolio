@@ -11,7 +11,7 @@ export default function Introducao() {
           DESENVOLVEDOR <span>FRONT-END</span> <br /> & <span>UI/UX DESIGNER</span>
         </h1>
         <div className="botao-container">
-          <IconButton href="https://github.com/kaiky-botelho" iconSrc="../assets/icones/linkedin.svg"/>
+          <IconButton href="https://www.linkedin.com/in/kaiky-botelho-de-faria-90271730a/" iconSrc="../assets/icones/linkedin.svg"/>
           <IconButton href="https://github.com/kaiky-botelho" iconSrc="../assets/icones/github.svg"/>
         </div>
       </div>
