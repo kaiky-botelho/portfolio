@@ -1,5 +1,5 @@
 
-import "../styles/sobre/sobre.css";
+import "../styles/sobre.css";
 import TextButton from "@/components/textButton/textButton";
 
 export default function Sobre() {

@@ -1,5 +1,5 @@
 import '../styles/global.css';
-import "../styles/conhecicimento/conhecicimento.css";
+import "../styles/conhecicimento.css";
 import MiniCard from '@/components/miniCard/miniCard';
 
 export default function Conhecimento() {   

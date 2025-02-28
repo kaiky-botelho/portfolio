@@ -1,0 +1,55 @@
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  border-left: 2px solid #E3AF64;
+  padding: 0 0 50px 30px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -12px;
+  top: -5px;
+  content: " ";
+  border-radius: 500%;
+  background: #E3AF64;
+  height: 20px;
+  width: 20px;
+}
+
+ul.rb li .timestamp {
+  color: #E3AF64;
+  position: relative;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.item-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.item-type{
+  color: #fff;
+  font-size: 0.825rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.item-subtitle{
+  color: #fff;
+}
+
+.description{
+  color: #fff;
+  font-size: 0.825rem;
+}

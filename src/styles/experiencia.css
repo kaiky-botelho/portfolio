@@ -1,0 +1,10 @@
+.experiencia-itens{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.experiencia-item{
+  background: #273461;
+  border-radius: 10px;
+}

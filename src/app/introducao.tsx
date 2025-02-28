@@ -1,5 +1,5 @@
 import IconButton from "@/components/IconButton/iconButton";
-import "../styles/introducao/introducao.css";
+import "../styles/introducao.css";
 
 export default function Introducao() {
   return (
