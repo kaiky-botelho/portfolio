@@ -1,6 +1,5 @@
 button {
   background-color: #E3AF64;
-  color: #DFDFDF;
   font-size: 2rem;
   padding: 5px 10px;
   border: none;
@@ -11,5 +10,13 @@ button {
 }
 button:hover {
   background-color: #DFDFDF;
+}
+
+button a{
+  text-decoration: none;
+  color: #DFDFDF;
+}
+
+button a:hover{
   color: #E3AF64;
 }

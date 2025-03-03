@@ -13,6 +13,11 @@
   margin-top: 20px;
 }
 
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+
 .sobre-card{
   background-color: #516AC7;
   padding: 20px;

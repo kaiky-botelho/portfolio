@@ -1,12 +1,14 @@
 import { ComponentProps } from "react";
 import './textButton.css';
 
-interface TextButtonProps extends ComponentProps<'button'> {}
+interface TextButtonProps extends ComponentProps<'button'> {
+  href?: string;
+}
 
-export default function TextButton({ children, ...props }: TextButtonProps) {
+export default function TextButton({ children, href, ...props }: TextButtonProps) {
   return (
     <button {...props}>
-      {children} 
+      <a href={href}>{children}</a> 
     </button>
   );
 }
