@@ -3,16 +3,16 @@ import './timeline.css';
 
 // Tipagem para o TimelineItem
 interface TimelineItemProps {
-  timestamp: string;
-  title: string;
+  timestamp?: string;
+  title?: string;
   description?: string;
-  subtitle: string;
+  subtitle?: string;
   type?: string;
 }
 
-export function TimelineItem({ timestamp, title, description, subtitle, type }: TimelineItemProps) {
+export function TimelineItem({ timestamp, title, description, subtitle, type, className }: TimelineItemProps & { className?: string }) {
   return (
-    <li className="rb-item">
+    <li className={`rb-item ${className || ""}`}>
       <div className="content-wrapper">
         <div className="timestamp">
           {timestamp}
@@ -26,13 +26,14 @@ export function TimelineItem({ timestamp, title, description, subtitle, type }: 
         <div className="item-subtitle">
           {title}
         </div>
-        <p className="description">
+        {description && <p className="description">
           {description}
-        </p>
+        </p>}
       </div>
     </li>
   );
 }
+
 
 
 // Tipagem para o componente Timeline

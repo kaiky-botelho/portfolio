@@ -1,10 +1,27 @@
+.experiencia{
+  padding-bottom: 40px;
+}
+
 .experiencia-itens{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  margin-top: 20px
 }
 
 .experiencia-item{
   background: #273461;
   border-radius: 10px;
+  padding:30px 30px 0 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sem{
+  display: none;
+}
+
+@media (max-width: 800px){
+  .experiencia-itens{
+    grid-template-columns: 1fr;
+  }
 }

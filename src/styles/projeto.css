@@ -1,0 +1,13 @@
+.projetos-itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.projetos-itens a{
+  color: #E3AF64;
+  font-size: 1.5rem;
+}
