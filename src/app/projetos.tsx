@@ -7,6 +7,12 @@ export default function Projetos(){
       <h2>Projetos<span>.</span> </h2>
       <div className="projetos-itens">
       <CardProjeto 
+    imgSrc='../assets/projetos-image/skycast.png' 
+    titulo='SkyCast' 
+    buttons={[
+      { href: "https://github.com/kaiky-botelho/skyCast", iconSrc: "../assets/icones/github-a.svg" },
+    ]}/>
+      <CardProjeto 
     imgSrc='../assets/projetos-image/nextBook_E-commerce.jpg' 
     titulo='Next Book E-Commerce' 
     buttons={[
@@ -49,8 +55,7 @@ export default function Projetos(){
     titulo='Next Book Rede Social' 
     buttons={[
       { href: "https://www.figma.com/design/MjvrZbYiLsZQoChL6vab5y/NextBook(Rede-Social)?node-id=37-2&t=e3jYtKBogSgF3uVR-1", iconSrc: "../assets/icones/figma-a.svg" },
-    ]}/>
-      
+    ]}/>    
       </div>
     </main>
   );
