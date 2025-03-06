@@ -19,7 +19,7 @@ export default function Sobre() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        sobre mim<span>.</span>
+        Sobre Mim<span>.</span>
       </motion.h2>
 
       <div className="sobre-conteudo">

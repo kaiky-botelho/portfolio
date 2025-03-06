@@ -34,7 +34,7 @@ export default function Conhecimento() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
             >
-                conhecimento<span>.</span>
+                Conhecimento<span>.</span>
             </motion.h2>
             
             <div className="conhecimento-cards">
