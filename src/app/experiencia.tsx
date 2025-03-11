@@ -30,7 +30,13 @@ export default function Experiencia() {
         >
           <Timeline>
             <TimelineItem
-              timestamp="2024 - ATUAL"
+              timestamp="2025 - 2026"
+              type="Tecnólogo "
+              subtitle="SUPERIOR EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+              title="Cruzeiro do Sul"
+            />
+            <TimelineItem
+              timestamp="2024 - 2025"
               type="Técnico"
               subtitle="DESENVOLVIMENTO DE SISTEMAS"
               title="SENAI Marcio Bagueira Leal"
