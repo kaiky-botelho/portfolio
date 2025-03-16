@@ -13,7 +13,7 @@ export default function Projetos() {
             { href: "https://github.com/kaiky-botelho/skyCast", iconSrc: "/assets/icones/github-a.svg" },
           ]}
           iconesSrc={["/assets/icones/html.png", "/assets/icones/css.png", "/assets/icones/js.png"]}
-          descricao="Aplicação web para previsão do tempo, utilizando APIs meteorológicas para exibir informações climáticas em tempo real."       
+          descricao="Aplicação web para previsão do tempo, utilizando a API do OpenWeathe para exibir informações climáticas"       
         />
 
         <CardProjeto 

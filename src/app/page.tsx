@@ -1,4 +1,5 @@
 import Conhecimento from "./conhecimento";
+import Contato from "./contato";
 import Experiencia from "./experiencia";
 import Introducao from "./introducao";
 import Projetos from "./projetos";
@@ -12,6 +13,7 @@ export default function Home() {
       <Conhecimento />
       <Experiencia />
       <Projetos />  
+      <Contato />
     </main>
   );
 }
