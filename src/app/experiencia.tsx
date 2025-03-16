@@ -15,13 +15,13 @@ const containerVariantsRight = {
   visible: { opacity: 1, x: 0, transition: { duration: 0.8 } }
 };
 
-export default function Experiencia() { 
+export default function Experiencia() {
   return (
     <main className="experiencia container">
-      <h2>formação <span>&</span> experiencia<span>.</span></h2>
+      <h2>Formação <span>&</span> Experiência<span>.</span></h2>
       <div className="experiencia-itens">
         {/* Bloco 1 - Formação (entrada da esquerda) */}
-        <motion.div 
+        <motion.div
           className="experiencia-item"
           variants={containerVariantsLeft}
           initial="hidden"
@@ -29,28 +29,34 @@ export default function Experiencia() {
           viewport={{ once: true }}
         >
           <Timeline>
-            <TimelineItem 
-              timestamp="2024 - ATUAL" 
-              type="Técnico" 
-              subtitle="DESENVOLVIMENTO DE SISTEMAS" 
-              title="SENAI Marcio Bagueira Leal" 
+            <TimelineItem
+              timestamp="2025 - 2026"
+              type="Tecnólogo "
+              subtitle="SUPERIOR EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+              title="Cruzeiro do Sul"
             />
-            <TimelineItem 
-              timestamp="2023 - 2024" 
-              type="Técnico" 
-              subtitle="DESENVOLVIMENTO DE SISTEMAS" 
-              title="ETEC Pedro Badran" 
+            <TimelineItem
+              timestamp="2024 - 2025"
+              type="Técnico"
+              subtitle="DESENVOLVIMENTO DE SISTEMAS"
+              title="SENAI Marcio Bagueira Leal"
             />
-            <TimelineItem 
-              timestamp="2020 - 2022"  
-              subtitle="Ensino Médio" 
-              title="ETEC Professor José Ignácio Azevedo Filho" 
+            <TimelineItem
+              timestamp="2023 - 2024"
+              type="Técnico"
+              subtitle="DESENVOLVIMENTO DE SISTEMAS"
+              title="ETEC Pedro Badran"
+            />
+            <TimelineItem
+              timestamp="2020 - 2022"
+              subtitle="Ensino Médio"
+              title="ETEC Professor José Ignácio Azevedo Filho"
             />
           </Timeline>
         </motion.div>
 
         {/* Bloco 2 - Experiência (entrada da direita) */}
-        <motion.div 
+        <motion.div
           className="experiencia-item"
           variants={containerVariantsRight}
           initial="hidden"
@@ -58,10 +64,10 @@ export default function Experiencia() {
           viewport={{ once: true }}
         >
           <Timeline>
-            <TimelineItem 
-              timestamp="2024 - ATUAL" 
-              type="Aprendiz de Desenvolvimento de Sistemas" 
-              subtitle="Usina Alta Mogiana" 
+            <TimelineItem
+              timestamp="2024 - ATUAL"
+              type="Aprendiz de Desenvolvimento de Sistemas"
+              subtitle="Usina Alta Mogiana"
               description="Atualmente, sou jovem aprendiz na empresa Alta Mogiana, onde estou adquirindo experiência nos setores de Infraestrutura e Desenvolvimento. Durante esse período, estou aprendendo sobre processos internos, suporte técnico e áreas essenciais para o funcionamento da empresa. Essa experiência tem sido valiosa para o desenvolvimento da minha carreira em tecnologia."
             />
             <TimelineItem className="sem" />

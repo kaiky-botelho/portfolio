@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={roboto.variable}>
+    <html lang="pt-br" className={roboto.variable}>
       <body>{children}</body>
     </html>
   );

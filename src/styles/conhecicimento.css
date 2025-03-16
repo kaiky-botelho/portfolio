@@ -19,3 +19,11 @@
     opacity: 0.5;
     transform: scale(0.95);
 }
+
+@media(max-width:800px){
+    .conhecimento-cards:hover  > :not(:hover) {
+        filter: none;
+        opacity: none;
+        transform: none;
+    }
+}

@@ -19,7 +19,7 @@ export default function Sobre() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        sobre mim<span>.</span>
+        Sobre Mim<span>.</span>
       </motion.h2>
 
       <div className="sobre-conteudo">
@@ -48,7 +48,7 @@ export default function Sobre() {
             transition={{ duration: 0.8, delay: 0.8 }}
             viewport={{ once: true }}
           >
-            <TextButton type="button" href="https://github.com/kaiky-botelho">Baixe o CV</TextButton>
+            <TextButton type="button" href="/">Baixe o CV</TextButton>
           </motion.div>
         </motion.div>
       </div>

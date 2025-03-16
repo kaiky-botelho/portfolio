@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meu Portfólio
 
-## Getting Started
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando **React** e **Next.js**, com o objetivo de mostrar minhas habilidades como desenvolvedor front-end e UI/UX designer.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Next.js**: Framework React para desenvolvimento de aplicações web com renderização no lado do servidor e recursos como roteamento e otimização de performance.
+- **CSS**: Estilização de componentes e layouts responsivos.
+- **Vercel**: Plataforma para deploy da aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Visualização de projetos desenvolvidos.
+- Detalhamento sobre cada projeto com links para repositórios.
+- Layout responsivo, adaptável para diferentes dispositivos (desktop, tablet, celular).
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
