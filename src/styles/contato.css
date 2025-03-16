@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
+  gap: 10px;
+  padding-bottom: 60px;
 }
 
 .contato h3{
@@ -22,7 +24,7 @@
 }
 
 .contato-items ul{
-  background-color: #516AC7;
+  background-color: #273461;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 10px;

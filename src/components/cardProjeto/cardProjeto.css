@@ -1,6 +1,6 @@
 .card-projeto {
   width: 300px;
-  height: auto;
+  height: 450px;
   display: flex;
 
   flex-direction: column;
@@ -58,4 +58,10 @@
   display: flex;
   gap: 10px; 
   margin-top: 15px; 
+}
+
+@media  (max-width:800px) {
+  .card-projeto{
+    height: auto;
+  }
 }
