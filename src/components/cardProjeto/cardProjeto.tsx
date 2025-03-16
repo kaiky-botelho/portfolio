@@ -20,7 +20,10 @@ export default function CardProjeto({ titulo, imgSrc, imgAlt, buttons = [] }: Ca
       <div className="card-img">
         <img src={imgSrc} alt={imgAlt} width={300} height={200} />
       </div>
+      <div className="card-tec-tit">
       <h3 className="card-titulo">{titulo}</h3>
+      <img src="../assets/icones/react.png" alt="" width={25} height={25}/>
+      </div>
       <div className="card-buttons">
         {buttons.map((button, index) => (
           <IconButton key={index} href={button.href} iconSrc={button.iconSrc} />

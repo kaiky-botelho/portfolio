@@ -32,8 +32,14 @@
   margin-bottom: 20px;
 }
 
+.card-tec-tit{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .card-titulo {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #fff;
   text-align: center;
   margin: 0;
