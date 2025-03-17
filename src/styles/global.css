@@ -8,6 +8,16 @@ body {
 
 }
 
+button {
+  background-color: #E3AF64;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: ease-in-out;
+}
+
 ul {
   list-style-type: none;
 }

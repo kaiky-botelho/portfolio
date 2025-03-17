@@ -1,22 +1,16 @@
-button {
-  background-color: #E3AF64;
+.textButton{
   font-size: 2rem;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-  transform: ease-in-out;
 }
-button:hover {
+
+.textButton:hover {
   background-color: #DFDFDF;
 }
 
-button a{
+.textButton a{
   text-decoration: none;
   color: #DFDFDF;
 }
 
-button a:hover{
+.textButton a:hover{
   color: #E3AF64;
 }

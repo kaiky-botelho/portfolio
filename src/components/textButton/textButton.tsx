@@ -7,7 +7,7 @@ interface TextButtonProps extends ComponentProps<'button'> {
 
 export default function TextButton({ children, href, ...props }: TextButtonProps) {
   return (
-    <button {...props}>
+    <button className="textButton" {...props}>
       <a href={href}>{children}</a> 
     </button>
   );

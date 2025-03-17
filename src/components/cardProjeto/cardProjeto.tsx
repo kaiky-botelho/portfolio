@@ -1,10 +1,10 @@
-
-import IconButton from "../IconButton/iconButton";
+import IconTextButton from "../iconTextButton/iconTextButton";
 import "./cardProjeto.css";
 
 interface ButtonProps {
   href: string;
   iconSrc: string;
+  text: string;
 }
 
 interface CardProjetoProps {
@@ -33,7 +33,7 @@ export default function CardProjeto({ titulo, imgSrc, imgAlt, buttons = [], icon
       <p className="card-descricao">{descricao}</p>
       <div className="card-buttons">
         {buttons.map((button, index) => (
-          <IconButton key={index} href={button.href} iconSrc={button.iconSrc} />
+          <IconTextButton key={index} href={button.href} imgIconSrc={button.iconSrc} text={button.text} />
         ))}
       </div>
     </div>

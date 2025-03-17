@@ -1,0 +1,13 @@
+.iconTxtButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.iconTxtButton:hover{
+    background-color: #db9b42;
+}

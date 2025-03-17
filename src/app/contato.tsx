@@ -1,5 +1,6 @@
 "use client";
 
+import IconTextButton from "@/components/iconTextButton/iconTextButton";
 import "../styles/contato.css";
 import { motion } from "framer-motion";
 
@@ -81,6 +82,7 @@ export default function Contato() {
             Se você tem um projeto em mente ou precisa de um desenvolvedor e designer para sua equipe, estou pronto para ajudar!
             Me envie uma mensagem e vamos conversar!
           </p>
+
         </motion.div>
       </div>
     </motion.main>
