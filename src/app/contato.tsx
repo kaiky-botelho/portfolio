@@ -56,24 +56,24 @@ export default function Contato() {
           <div className="contato-items">
             <ul>
               <h4>📌 Como falar comigo?</h4>
-              <motion.li whileHover={{ scale: 1.1 }}>
+              <li>
                 📧 
                 <a href="mailto:botelhokaiky55@gmail.com">botelhokaiky55@gmail.com</a>
-              </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }}>
+              </li>
+              <li>
                 🔗 <a href="https://www.linkedin.com/in/kaiky-botelho-de-faria-90271730a/">Linkedin</a>
-              </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }}>
+              </li>
+              <li>
                 💻 <a href="https://github.com/kaiky-botelho">GitHub</a>
-              </motion.li>
+              </li>
             </ul>
 
             <ul>
               <h4>💼 Como posso te ajudar?</h4>
-              <motion.li whileHover={{ scale: 1.05 }}>🚀 Desenvolvimento de interfaces modernas e responsivas</motion.li>
-              <motion.li whileHover={{ scale: 1.05 }}>🎨 Criação de designs intuitivos e acessíveis</motion.li>
-              <motion.li whileHover={{ scale: 1.05 }}>⚡ Performance otimizada para uma experiência fluida</motion.li>
-              <motion.li whileHover={{ scale: 1.05 }}>🖌️ Prototipação interativa e animações em UI/UX</motion.li>
+              <li>🚀 Desenvolvimento de interfaces modernas e responsivas</li>
+              <li>🎨 Criação de designs intuitivos e acessíveis</li>
+              <li>⚡ Performance otimizada para uma experiência fluida</li>
+              <li>🖌️ Prototipação interativa e animações em UI/UX</li>
             </ul>
           </div>
           

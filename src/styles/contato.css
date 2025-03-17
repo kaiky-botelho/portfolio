@@ -25,9 +25,10 @@
 
 .contato-items ul{
   background-color: #273461;
-  padding: 10px;
+  padding: 12px;
   box-sizing: border-box;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .contato-items h4{
@@ -38,6 +39,10 @@
 .contato-items li{
   margin-bottom: 10px;
   color: #fff;
+}
+
+.contato-items li:hover{
+  color: #FBFBFB;
 }
 
 @media (max-width:900px){
