@@ -71,7 +71,12 @@
     height: auto;
   }
 
+  .card-descricao{
+    height: auto;
+  }
+
   .card-buttons{
     flex-direction: column;
+    width: 100%;
   }
 }
