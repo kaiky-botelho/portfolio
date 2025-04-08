@@ -6,6 +6,18 @@ export default function Projetos() {
     <main className="container projetos">
       <h2>Projetos<span>.</span> </h2>
       <div className="projetos-itens">
+
+        <CardProjeto
+        titulo="SWChronicles" 
+        imgSrc={""} 
+        iconesSrc={["/assets/icones/react.png"]} 
+        descricao={"app mobile em React Native + Expo integrado com a SWAPI, com sistema de login, persistência local e navegação temática."} 
+        buttons={[
+          { href: "https://github.com/kaiky-botelho/SWChronicles", iconSrc: "/assets/icones/github.svg", text:"Repositório" },
+        ]}
+        />
+
+
         <CardProjeto 
           imgSrc="/assets/projetos-image/skycast.png"
           titulo="SkyCast"
