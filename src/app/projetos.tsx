@@ -7,7 +7,7 @@ export default function Projetos() {
       <h2>Projetos<span>.</span> </h2>
       <div className="projetos-itens">
         <CardProjeto 
-          imgSrc="/assets/projetos-image/neoClass.jpg"
+          imgSrc="/assets/projetos-image/NeoClass.jpg"
           titulo="Neo Class"
           buttons={[
             { href: "https://www.figma.com/design/hf7SqLz4XKutNTsDuMDZo2/Neo-Class---prototipo?node-id=573-2972&t=ftyK0swd6isCT8UH-1", iconSrc: "/assets/icones/figma.png", text:"Protótipo" }
