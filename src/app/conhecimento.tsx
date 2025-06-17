@@ -23,6 +23,8 @@ export default function Conhecimento() {
         { subTit: 'css', iconSrc: '../assets/icones/css.png' },
         { subTit: 'js', iconSrc: '../assets/icones/js.png' },
         { subTit: 'react', iconSrc: '../assets/icones/react.png' },
+        { subTit: 'react native', iconSrc: '../assets/icones/react.png' },
+        { subTit: 'typescript', iconSrc: '../assets/icones/typescript.png' },
         { subTit: 'figma', iconSrc: '../assets/icones/figma.png' },
         { subTit: 'adobe xd', iconSrc: '../assets/icones/adobe.png' },
     ];

@@ -7,6 +7,15 @@ export default function Projetos() {
       <h2>Projetos<span>.</span> </h2>
       <div className="projetos-itens">
         <CardProjeto 
+          imgSrc="/assets/projetos-image/neoClass.jpg"
+          titulo="Neo Class"
+          buttons={[
+            { href: "https://www.figma.com/design/hf7SqLz4XKutNTsDuMDZo2/Neo-Class---prototipo?node-id=573-2972&t=ftyK0swd6isCT8UH-1", iconSrc: "/assets/icones/figma.png", text:"Protótipo" }
+          ]}
+          iconesSrc={["/assets/icones/react.png", "/assets/icones/css.png", "/assets/icones/figma.png", "/assets/icones/typescript.png"]}
+          descricao="Sistema de gerenciamento escolar com funcionalidades para secretária, professores e alunos"       
+        />
+        <CardProjeto 
           imgSrc="/assets/projetos-image/skycast.png"
           titulo="SkyCast"
           buttons={[
