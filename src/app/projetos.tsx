@@ -10,6 +10,7 @@ export default function Projetos() {
           imgSrc="/assets/projetos-image/NeoClass.jpg"
           titulo="Neo Class"
           buttons={[
+                     { href: "https://github.com/kaiky-botelho/neo-class", iconSrc: "/assets/icones/github.svg", text:"Repositórío" },
             { href: "https://www.figma.com/design/hf7SqLz4XKutNTsDuMDZo2/Neo-Class---prototipo?node-id=573-2972&t=ftyK0swd6isCT8UH-1", iconSrc: "/assets/icones/figma.png", text:"Protótipo" }
           ]}
           iconesSrc={["/assets/icones/react.png", "/assets/icones/css.png", "/assets/icones/figma.png", "/assets/icones/typescript.png"]}
