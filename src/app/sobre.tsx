@@ -40,7 +40,7 @@ export default function Sobre() {
           viewport={{ once: true }}
         >
           <p>
-            Sou Kaiky Botelho de Faria, desenvolvedor front-end e UI/UX designer. Tenho experiência em HTML, CSS, JavaScript, React e TypeScript. Concluí o curso Técnico em Desenvolvimento de Sistemas e trabalhei em projetos como 'Galactic Explore', 'Next Book' e 'Alimenta Mais', sempre focando em criar interfaces atraentes e funcionais.
+            Sou Kaiky Botelho de Faria, desenvolvedor front-end e UI/UX designer. Tenho experiência em HTML, CSS, JavaScript, React e TypeScript. Concluí o curso Técnico em Desenvolvimento de Sistemas e trabalhei em projetos como 'Next Book', 'Alimenta Mais', 'NeoClass' sempre focando em criar interfaces atraentes e funcionais.
           </p>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}

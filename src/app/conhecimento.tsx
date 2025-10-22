@@ -17,7 +17,7 @@ const cardVariants = {
     })
 };
 
-export default function Conhecimento() {   
+export default function Conhecimento() {
     const conhecimentos = [
         { subTit: 'html', iconSrc: '../assets/icones/html.png' },
         { subTit: 'css', iconSrc: '../assets/icones/css.png' },
@@ -31,26 +31,29 @@ export default function Conhecimento() {
 
     return (
         <main className='conhecimento container'>
-            <motion.h2 
+            <motion.h2
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
             >
                 Conhecimento<span>.</span>
             </motion.h2>
-            
+
             <div className="conhecimento-cards">
                 {conhecimentos.map((item, index) => (
-                    <motion.div 
+                    <motion.div
                         key={item.subTit}
+                        className="conhecimento-card"
                         variants={cardVariants}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
-                        custom={index} // Passa o índice para a animação
+                        custom={index}
                     >
                         <MiniCard subTit={item.subTit} iconSrc={item.iconSrc} />
                     </motion.div>
+
+
                 ))}
             </div>
         </main>

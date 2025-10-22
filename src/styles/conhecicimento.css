@@ -10,18 +10,22 @@
     gap: 20px;
     padding-top: 60px;
     padding-bottom: 20px;
+
+}
+
+.conhecimento-card:hover{
     transition: ease-in-out 0.5s;
     cursor: pointer;
 }
 
-.conhecimento-cards:hover  > :not(:hover) {
+.conhecimento-card:hover  > :not(:hover) {
     filter: blur(1px);
     opacity: 0.5;
     transform: scale(0.95);
 }
 
 @media(max-width:800px){
-    .conhecimento-cards:hover  > :not(:hover) {
+    .conhecimento-card:hover  > :not(:hover) {
         filter: none;
         opacity: none;
         transform: none;
