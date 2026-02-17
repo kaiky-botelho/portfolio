@@ -14,11 +14,12 @@ interface CardProjetoProps {
   buttons?: ButtonProps[];
   iconesSrc: string[];
   descricao: string;
+  onClick?: () => void;
 }
 
-export default function CardProjeto({ titulo, imgSrc, imgAlt, buttons = [], iconesSrc, descricao }: CardProjetoProps) {
+export default function CardProjeto({ titulo, imgSrc, imgAlt, buttons = [], iconesSrc, descricao, onClick }: CardProjetoProps) {
   return (
-    <div className="card-projeto">
+    <div className="card-projeto" onClick={onClick} style={{ cursor: onClick ? 'pointer' : 'default' }}>
       <div className="card-img">
         <img src={imgSrc} alt={imgAlt} width={300} height={200} />
       </div>

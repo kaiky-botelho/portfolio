@@ -1,6 +1,7 @@
 "use client";
 
 import IconTextButton from "@/components/iconTextButton/iconTextButton";
+import FormContato from "@/components/formContato/formContato";
 import "../styles/contato.css";
 import { motion } from "framer-motion";
 
@@ -85,6 +86,24 @@ export default function Contato() {
 
         </motion.div>
       </div>
+
+      {/* Formulário de Contato */}
+      <motion.div
+        className="formulario-section"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        <div className="formulario-header">
+          <h3>✉️ Envie uma Mensagem Direta</h3>
+          <p>
+            Prefere entrar em contato de forma rápida? Preencha o formulário abaixo e envie sua mensagem diretamente para meu email. 
+            Responderei assim que possível!
+          </p>
+        </div>
+        <FormContato />
+      </motion.div>
     </motion.main>
   );
 }

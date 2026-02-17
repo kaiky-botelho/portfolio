@@ -45,6 +45,32 @@
   color: #FBFBFB;
 }
 
+.formulario-section {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 2px solid #516AC7;
+}
+
+.formulario-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario-header h3 {
+  color: #fbfbfb;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.formulario-header p {
+  font-size: 1.1rem;
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
 @media (max-width:900px){
   .contato{
     grid-template-columns: 1fr;
@@ -58,5 +84,13 @@
 @media (max-width:800px){
   .contato-items{
     grid-template-columns: 1fr;
+  }
+
+  .formulario-header h3 {
+    font-size: 1.5rem;
+  }
+
+  .formulario-header p {
+    font-size: 1rem;
   }
 }

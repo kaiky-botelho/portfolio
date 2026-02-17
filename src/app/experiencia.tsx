@@ -30,8 +30,14 @@ export default function Experiencia() {
         >
           <Timeline>
             <TimelineItem
+              timestamp="2026 - 2029"
+              type="Bacharelado"
+              subtitle="Engenharia de Software"
+              title="Unifran"
+            />
+            <TimelineItem
               timestamp="2025 - 2026"
-              type="Tecnólogo "
+              type="Tecnólogo"
               subtitle="SUPERIOR EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
               title="Cruzeiro do Sul"
             />
@@ -65,7 +71,12 @@ export default function Experiencia() {
         >
           <Timeline>
             <TimelineItem
-              timestamp="2024 - ATUAL"
+              timestamp="2024 - 2025"
+              type="Auxiliar de Escritorio 1"
+              subtitle="Usina Alta Mogiana"
+            />
+            <TimelineItem
+              timestamp="2024 - 2025"
               type="Aprendiz de Desenvolvimento de Sistemas"
               subtitle="Usina Alta Mogiana"
               description="Atualmente, sou jovem aprendiz na empresa Alta Mogiana, onde estou adquirindo experiência nos setores de Infraestrutura e Desenvolvimento. Durante esse período, estou aprendendo sobre processos internos, suporte técnico e áreas essenciais para o funcionamento da empresa. Essa experiência tem sido valiosa para o desenvolvimento da minha carreira em tecnologia."
