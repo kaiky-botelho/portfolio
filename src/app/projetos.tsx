@@ -35,6 +35,51 @@ const PROJETOS: Projeto[] = [
     categoria: "desenvolvimento",
   },
     {
+    imgSrc: "/assets/projetos-image/GB.jpg",
+    titulo: "GB - Gestão de Benefícios",
+    buttons: [
+      { href: "https://github.com/kaiky-botelho/GB", iconSrc: "/assets/icones/github.svg", text: "Repositório" },
+    ],
+    iconesSrc: ["/assets/icones/react.png", "/assets/icones/js.png"],
+    descricao: "App mobile para centralizar gestão de benefícios com solicitações, agendamentos, assinatura digital e chatbot integrado.",
+    descricaoCompleta: "Projeto de conclusão do curso técnico desenvolvido para centralizar e digitalizar a comunicação entre colaboradores e a equipe de gestão de benefícios. O app mobile substitui processos manuais descentralizados (WhatsApp, Teams, ligações e documentos físicos) por fluxos digitais organizados e rastreáveis. A solução permite solicitar benefícios, agendar consultas, enviar e assinar documentos digitalmente com pré-visualização, e consultar histórico de solicitações. Como diferencial, possui chatbot integrado que orienta colaboradores, responde dúvidas frequentes e agiliza contato com a gestão. O sistema também oferece notificações automáticas, como lembretes de consultas, melhorando a eficiência operacional e experiência do usuário.",
+    tecnologias: [
+      { nome: "React Native", iconSrc: "/assets/icones/react.png" },
+      { nome: "JavaScript", iconSrc: "/assets/icones/js.png" }
+    ],
+    categoria: "desenvolvimento",
+  },
+    {
+    imgSrc: "/assets/projetos-image/GB.jpg",
+    titulo: "GB - Gestão de Benefícios",
+    buttons: [
+      { href: "https://github.com/kaiky-botelho/GB", iconSrc: "/assets/icones/github.svg", text: "Repositório" },
+    ],
+    iconesSrc: ["/assets/icones/react.png", "/assets/icones/js.png"],
+    descricao: "App mobile para centralizar gestão de benefícios com solicitações, agendamentos, assinatura digital e chatbot integrado.",
+    descricaoCompleta: "Projeto de conclusão do curso técnico desenvolvido para centralizar e digitalizar a comunicação entre colaboradores e a equipe de gestão de benefícios. O app mobile substitui processos manuais descentralizados (WhatsApp, Teams, ligações e documentos físicos) por fluxos digitais organizados e rastreáveis. A solução permite solicitar benefícios, agendar consultas, enviar e assinar documentos digitalmente com pré-visualização, e consultar histórico de solicitações. Como diferencial, possui chatbot integrado que orienta colaboradores, responde dúvidas frequentes e agiliza contato com a gestão. O sistema também oferece notificações automáticas, como lembretes de consultas, melhorando a eficiência operacional e experiência do usuário.",
+    tecnologias: [
+      { nome: "React Native", iconSrc: "/assets/icones/react.png" },
+      { nome: "JavaScript", iconSrc: "/assets/icones/js.png" }
+    ],
+    categoria: "desenvolvimento",
+  },
+    {
+    imgSrc: "/assets/projetos-image/GB.jpg",
+    titulo: "GB - Gestão de Benefícios",
+    buttons: [
+      { href: "https://github.com/kaiky-botelho/GB", iconSrc: "/assets/icones/github.svg", text: "Repositório" },
+    ],
+    iconesSrc: ["/assets/icones/react.png", "/assets/icones/js.png"],
+    descricao: "App mobile para centralizar gestão de benefícios com solicitações, agendamentos, assinatura digital e chatbot integrado.",
+    descricaoCompleta: "Projeto de conclusão do curso técnico desenvolvido para centralizar e digitalizar a comunicação entre colaboradores e a equipe de gestão de benefícios. O app mobile substitui processos manuais descentralizados (WhatsApp, Teams, ligações e documentos físicos) por fluxos digitais organizados e rastreáveis. A solução permite solicitar benefícios, agendar consultas, enviar e assinar documentos digitalmente com pré-visualização, e consultar histórico de solicitações. Como diferencial, possui chatbot integrado que orienta colaboradores, responde dúvidas frequentes e agiliza contato com a gestão. O sistema também oferece notificações automáticas, como lembretes de consultas, melhorando a eficiência operacional e experiência do usuário.",
+    tecnologias: [
+      { nome: "React Native", iconSrc: "/assets/icones/react.png" },
+      { nome: "JavaScript", iconSrc: "/assets/icones/js.png" }
+    ],
+    categoria: "desenvolvimento",
+  },
+    {
     imgSrc: "/assets/projetos-image/brasken.jpg",
     titulo: "Skiil UP - desafio Braskem",
     buttons: [
